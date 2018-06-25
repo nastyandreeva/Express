@@ -15,7 +15,6 @@ yarn add --dev nodemon
  6. Импорт метода get из зависимости axios и создание асинхронного обработчика маршрута users:
 const { get } = require('axios');
 const URL = 'https://kodaktor.ru/j/users';
-+
 .get(/users/, async r => { 
       const { data: { users: items } } = await get(URL);
       r.res.render('list', {title: 'Login list', items});
