@@ -9,7 +9,7 @@ yarn add --dev nodemon
 3. Добавление скрипта в package.json:
  "scripts": {
     "start": "nodemon"
-  },
+  }
 4.Создание папки src и файла index.js с нужным содержанием
 5.Создание папки views и файла list.pug с шаблоном
 6. Импорт метода get из зависимости axios:
